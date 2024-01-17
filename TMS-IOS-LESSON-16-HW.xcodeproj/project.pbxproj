@@ -13,6 +13,8 @@
 		0474D7C22B58470300A3280C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0474D7C02B58470300A3280C /* Main.storyboard */; };
 		0474D7C42B58470500A3280C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0474D7C32B58470500A3280C /* Assets.xcassets */; };
 		0474D7C72B58470500A3280C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0474D7C52B58470500A3280C /* LaunchScreen.storyboard */; };
+		0474D7CF2B5847ED00A3280C /* CustomCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D7CE2B5847ED00A3280C /* CustomCircle.swift */; };
+		0474D7D32B58484F00A3280C /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D7D22B58484F00A3280C /* UIColor+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0474D7C32B58470500A3280C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0474D7C62B58470500A3280C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0474D7C82B58470500A3280C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0474D7CE2B5847ED00A3280C /* CustomCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircle.swift; sourceTree = "<group>"; };
+		0474D7D22B58484F00A3280C /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		0474D7B92B58470300A3280C /* TMS-IOS-LESSON-16-HW */ = {
 			isa = PBXGroup;
 			children = (
+				0474D7D02B58481800A3280C /* Components */,
 				0474D7BA2B58470300A3280C /* AppDelegate.swift */,
 				0474D7BC2B58470300A3280C /* SceneDelegate.swift */,
+				0474D7D12B58482600A3280C /* Extensions */,
 				0474D7BE2B58470300A3280C /* ViewController.swift */,
 				0474D7C02B58470300A3280C /* Main.storyboard */,
 				0474D7C32B58470500A3280C /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				0474D7C82B58470500A3280C /* Info.plist */,
 			);
 			path = "TMS-IOS-LESSON-16-HW";
+			sourceTree = "<group>";
+		};
+		0474D7D02B58481800A3280C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0474D7CE2B5847ED00A3280C /* CustomCircle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0474D7D12B58482600A3280C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0474D7D22B58484F00A3280C /* UIColor+extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +162,8 @@
 			files = (
 				0474D7BF2B58470300A3280C /* ViewController.swift in Sources */,
 				0474D7BB2B58470300A3280C /* AppDelegate.swift in Sources */,
+				0474D7D32B58484F00A3280C /* UIColor+extension.swift in Sources */,
+				0474D7CF2B5847ED00A3280C /* CustomCircle.swift in Sources */,
 				0474D7BD2B58470300A3280C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
